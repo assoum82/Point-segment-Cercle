@@ -29,7 +29,7 @@ public class Segment {
 
 	@Override
 	public String toString() {
-		return "" + A.toString() + "" + B.toString() + "";
+		return "" + A + "" + B + ""; // sans mettre explicitement toString()
 	}
 
 }
