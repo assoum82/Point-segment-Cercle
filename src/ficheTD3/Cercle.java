@@ -17,7 +17,7 @@ public class Cercle {
 		this(new Point(), rayon);
 	}
 
-	public float périmètre(float rayon) {
+	public float pÃ©rimÃ¨tre(float rayon) {
 
 		return (float) (2 * rayon * Math.PI);
 	}
@@ -29,7 +29,7 @@ public class Cercle {
 
 	@Override
 	public String toString() {
-		return " rayon=" + rayon + ", centre=" + centre.toString() + "";
+		return " rayon=" + rayon + ", centre=" + centre + ""; //meme remarque ici
 	}
 
 	public float getRayon() {
